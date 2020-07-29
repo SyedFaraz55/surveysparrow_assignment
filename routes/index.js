@@ -87,8 +87,7 @@ exports.postDashboard = async function(req,res,next) {
 	const {fullUrl,title} = req.body
 	const Shorturl = await tinyUrl.shorten(fullUrl)
 	console.log(Shorturl)
-	res.render("dashboard",{name:req.user.name,id:req.user.id,url:Shorturl,title:""});
-	
+
 	User.updateOne(
 		{_id: req.user.id},
 		{$push : {
