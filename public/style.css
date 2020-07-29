@@ -1,0 +1,90 @@
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* background: #f8f9fa; */
+}
+#main {
+  margin-top: 50px;
+}
+#tagline {
+  font-weight: 600;
+}
+
+#input {
+  background: #f1f5f9;
+  margin-bottom: 10px;
+}
+#left-pane {
+  margin-top: 40px;
+  padding-left: 50px;
+}
+#shrt {
+  margin-top: 10px;
+  width: 20%;
+  height: 12%;
+}
+#warn-display {
+  visibility: hidden;
+  font-size: 14px;
+  color: #24ba89;
+  margin-top: 10px;
+}
+#warn-display:hover {
+  cursor: pointer;
+}
+.col-md-6 img {
+  margin-left: 60px;
+}
+#section {
+  padding-top: 100px;
+  background: #f8f9fa;
+}
+#section div {
+  text-align: center;
+}
+#subscribe {
+  padding-top: 100px;
+}
+#subscribe div {
+  text-align: center;
+}
+#subscribe div input {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#login {
+  width: 30%;
+  margin-top: 60px;
+}
+#drp {
+  text-transform: capitalize;
+}
+#divi {
+  display: flex;
+}
+#divi input {
+  margin-right: 10px;
+}
+.form-row {
+  margin-top: 20px;
+}
+footer {
+  margin-top: 80px;
+  background: #343a40;
+  color: white;
+  padding: 10px;
+}
+footer p {
+  margin: 2px;
+  padding: 6px;
+  text-align: center;
+}
+.truncated {
+  overflow: hidden;
+  display: block;
+  width: 50px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
